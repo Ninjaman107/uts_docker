@@ -1,0 +1,1 @@
+# empty public folder to satisfy Dockerfile COPY when no static assets are present
