@@ -56,11 +56,11 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/uts_docker-backend:latest
+          tags: ghcr.io/ninjaman107/uts_docker-backend:latest
 
       - name: Build and push frontend image
         uses: docker/build-push-action@v4
         with:
           context: ./frontend
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/uts_docker-frontend:latest
+          tags: ghcr.io/ninjaman107/uts_docker-frontend:latest
